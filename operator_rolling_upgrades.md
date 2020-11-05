@@ -32,7 +32,7 @@ When an upgrade is possible, the operator performs the following for each Infini
 
 4. Switch clients to the target cluster.
 
-5. Update the CR spec.StatefulSetName to new Statefulset
+5. Update the CR spec.status.StatefulSetName to new Statefulset
 
 6. Sync data from source for all caches. Execute the following on the target cluster
 
